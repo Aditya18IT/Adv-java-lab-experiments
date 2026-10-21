@@ -1,0 +1,40 @@
+Experiment 2: JDBC (Java Database Connectivity)
+
+Aim
+
+To connect a Java application with a MySQL database using JDBC, insert student records, and display the records.
+
+Theory
+
+JDBC stands for Java Database Connectivity. It is a Java API used to connect Java applications with databases such as MySQL.
+
+JDBC allows Java programs to execute SQL queries and perform database operations such as INSERT, SELECT, UPDATE, and DELETE.
+
+JDBC Components
+
+1. JDBC Driver: Enables communication between Java and MySQL.
+2. DriverManager: Establishes a connection with the database.
+3. Connection: Represents the connection between Java and MySQL.
+4. PreparedStatement: Executes parameterized SQL queries.
+5. Statement: Executes simple SQL queries.
+6. ResultSet: Stores the results returned by a SELECT query.
+
+Database Used
+
+- Database name: "college"
+- Table name: "student"
+- Columns: "id", "name", "branch"
+
+Procedure
+
+1. Create the "college" database in MySQL.
+2. Create the "student" table.
+3. Add the MySQL JDBC Connector library to the Java project.
+4. Establish a database connection using "DriverManager".
+5. Insert a student record using "PreparedStatement".
+6. Retrieve records using "Statement" and "ResultSet".
+7. Display the records on the console.
+
+Result
+
+The Java application connects to the MySQL database, inserts a student record, and displays the student records.
